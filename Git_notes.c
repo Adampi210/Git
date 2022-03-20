@@ -31,8 +31,13 @@ int main(int argc, char const *argv[]) {
       - touch .gitignore - creates a file .gitignore that includes the files that won't be added with git add .
     Branching:
       - git branch <branch_name> - creates a branch to a repository
-      
-
+      - git checkout <branch_name> - changes branch from current to branch_name (default is master)
+      - git merge <branch_name> - merges changes in a branch to the master branch
+    Remote repository:
+      - git remote - shows remote repositories
+      - git remote add origin https://github.com/Adampi210/Git.git - adds a remote repo to the local repo
+        - origin is the name of the remote repo, could be anything else
+      - git push -u origin master - push the changes from the local repo to the remote repo (called origin) branch master
    */
   return 0;
 }
