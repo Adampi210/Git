@@ -28,7 +28,10 @@ int main(int argc, char const *argv[]) {
       - git add . - adds all files
       - git restore <file> - restore the file to the last add version
       - git commit -m 'message' - commits changes with a message
-
+      - touch .gitignore - creates a file .gitignore that includes the files that won't be added with git add .
+    Branching:
+      - git branch <branch_name> - creates a branch to a repository
+      
 
    */
   return 0;
